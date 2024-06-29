@@ -59,8 +59,6 @@ def web_pc():
                 print("请输入正确的选项")
         else:
             print("请输入正确的选项")
-            web_pd = input("是否保存爬取的html文件(y/n):")
-            web_cr = input("请输入保存文件名:")
     elif web_cz.status_code =="404":
         print("网页不存在,请确保输入正确的网站域名")
     else:
