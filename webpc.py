@@ -1,3 +1,11 @@
+"""
+========================================
+Name:webpc Author: Lalevin Martin
+ Mailbox: rsjdcl@gmail.com                                               
+ Github: http://github.com/nacglalevin
+Written in 2022-11-2
+==================NACG==================
+"""
 import requests
 import sys
 import os
