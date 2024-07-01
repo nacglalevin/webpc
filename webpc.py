@@ -1,8 +1,8 @@
 """
 ========================================
 Name:webpc Author: Lalevin Martin
- Mailbox: rsjdcl@gmail.com                                               
- Github: http://github.com/nacglalevin
+Mailbox: rsjdcl@gmail.com                                               
+Github: http://github.com/nacglalevin
 Written in 2024-6-29
 ==================NACG==================
 """
