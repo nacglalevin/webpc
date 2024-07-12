@@ -36,10 +36,10 @@ def web_pcxz():
         sys.exit('[+] I have installed necessary modules for you')
 
 def web_pc():
-    heed = {"User-Agent":"Mozilla/5.0(Windows NT 10.0; Win64; ×64"}
+    headers = {"User-Agent":"Mozilla/5.0(Windows NT 10.0; Win64; ×64"}
     web_sr = input("请输入网站域名:")
-    web_cz = requests.get(web_sr)
-    web_sc = requests.get(web_sr).text
+    web_cz = requests.get(web_sr,headers=headers)
+    web_sc = requests.get(web_sr,headers=headers).text
     if web_cz.ok:
         web_pd = input("是否保存爬取的html文件(y/n):")
         if web_pd == "y":
