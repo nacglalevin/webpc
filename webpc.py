@@ -69,6 +69,9 @@ def web_pc():
         web_sc = requests.get(web_sr).text
     except:
         print("请输入正确的网站域名")
-if __name__ == '__main__':
+def main():
     web_pcxz()
     web_pc()
+
+if __name__ == '__main__':
+    main()
